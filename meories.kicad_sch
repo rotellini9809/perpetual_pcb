@@ -565,31 +565,9 @@
 		)
 		(uuid "239d32b5-7464-4076-a081-5c237ef52103")
 	)
-	(global_label "MISO_memo"
-		(shape input)
-		(at 152.4 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0743a937-6cc9-425e-845a-5bf7ecc40906")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.2268 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CS_memo1"
 		(shape input)
-		(at 78.74 85.09 180)
+		(at 109.22 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -599,7 +577,7 @@
 		)
 		(uuid "0e46bdfb-390e-42dd-87ed-69f7401ae8c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.474 85.09 0)
+			(at 95.954 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +589,7 @@
 	)
 	(global_label "CLK_memo"
 		(shape input)
-		(at 78.74 87.63 180)
+		(at 109.22 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -621,7 +599,7 @@
 		)
 		(uuid "7046dfcf-445d-4726-8452-9dc24e0fc33f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.5949 87.63 0)
+			(at 96.0749 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +611,7 @@
 	)
 	(global_label "MISO_memo"
 		(shape input)
-		(at 78.74 95.25 180)
+		(at 109.22 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -643,7 +621,7 @@
 		)
 		(uuid "94c2d935-5907-43a8-8ec7-dda88e37489d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5668 95.25 0)
+			(at 95.0468 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +633,7 @@
 	)
 	(global_label "MOSI_memo"
 		(shape input)
-		(at 78.74 92.71 180)
+		(at 109.22 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -665,73 +643,7 @@
 		)
 		(uuid "9aaee179-9891-472d-8672-db093d8d3c07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5668 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS_memo2"
-		(shape input)
-		(at 152.4 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b453667a-1310-499e-bf11-2d03a5d4a07e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.134 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI_memo"
-		(shape input)
-		(at 152.4 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "baa38a7f-9625-4afb-b24d-8364891bc7ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.2268 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK_memo"
-		(shape input)
-		(at 152.4 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d16b1ad5-0cca-4454-a1b1-20f36e52b283")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.2549 87.63 0)
+			(at 95.0468 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +655,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 100.33 90)
+		(at 154.94 99.06 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -753,7 +665,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a40c349-54b7-4850-a90a-55b0a3df04ea")
 		(property "Reference" "#PWR037"
-			(at 130.81 100.33 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 100.3299 90)
+			(at 158.75 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 100.33 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,7 +692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 100.33 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,7 +701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 100.33 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +723,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 124.46 92.71 270)
+		(at 154.94 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -820,7 +732,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c1cb8a6-e53e-4610-9758-394f7d0d1cc5")
 		(property "Reference" "#PWR036"
-			(at 120.65 92.71 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +741,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 128.27 92.7099 90)
+			(at 158.75 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 92.71 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 92.71 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 124.46 92.71 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +790,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 124.46 95.25 270)
+		(at 154.94 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -887,7 +799,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fef47d6-d3c4-4d74-9f6c-d030007b18f7")
 		(property "Reference" "#PWR035"
-			(at 120.65 95.25 0)
+			(at 151.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +808,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 128.27 95.2499 90)
+			(at 158.75 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 95.25 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,7 +826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 95.25 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 124.46 95.25 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,74 +857,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 198.12 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51921e39-4459-4df1-a7ab-1affeb1d4834")
-		(property "Reference" "#PWR055"
-			(at 194.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 201.93 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98b848b8-981c-4865-a250-5c95a668c6cb")
-		)
-		(instances
-			(project "recovery_system_tilt_switch"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 124.46 80.01 270)
+		(at 154.94 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1021,7 +866,7 @@
 		(fields_autoplaced yes)
 		(uuid "56e3b5f2-51ac-4f7c-8bd1-dcace89415e4")
 		(property "Reference" "#PWR034"
-			(at 120.65 80.01 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +875,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 128.27 80.0099 90)
+			(at 158.75 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 80.01 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 80.01 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 124.46 80.01 0)
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,214 +924,7 @@
 	)
 	(symbol
 		(lib_id "W25Q16JVSSIQ:W25Q16JVSSIQ")
-		(at 175.26 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6960aa6c-6d3f-4f3e-be64-b328c82cab2b")
-		(property "Reference" "U6"
-			(at 175.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W25Q64JVSSIQ"
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "W25Q16JVSSIQ:SOIC127P790X216-8N"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Winbond Electronics"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "3v 16m-Bit Serial Flash Memory With Dual"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SOIC-8 Winbond"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Winbond"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/W25Q16JVSSIQ/Winbond/view-part/?ref=eda"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q16JVSSIQ/Winbond/view-part/?ref=snap"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "W25Q16JVSSIQ"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FLASH - NOR Memory IC 16Mb (2M x 8) SPI - Quad I/O 133 MHz 8-SOIC"
-			(at 175.26 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "b515c07c-08db-43e0-a4c5-86a00369bd71")
-		)
-		(pin "6"
-			(uuid "1e1f188a-6c11-4a96-9212-0fe81c633b5d")
-		)
-		(pin "1"
-			(uuid "a7d496f0-6ca2-4558-b321-0739de6d3891")
-		)
-		(pin "5"
-			(uuid "e371ebac-a20d-40e4-9b2f-ec851d714624")
-		)
-		(pin "7"
-			(uuid "fdf259ec-34ab-4549-9164-18027179cc84")
-		)
-		(pin "2"
-			(uuid "00385a6d-5448-4299-b5c9-84a0e8ac037c")
-		)
-		(pin "3"
-			(uuid "74bb83be-d773-4fa5-a00a-932d67cded0a")
-		)
-		(pin "4"
-			(uuid "e4ffe9cb-4f75-48eb-8ca9-e65d0d93b1be")
-		)
-		(instances
-			(project "recovery_system_tilt_switch"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "W25Q16JVSSIQ:W25Q16JVSSIQ")
-		(at 101.6 90.17 0)
+		(at 132.08 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1295,7 +933,7 @@
 		(fields_autoplaced yes)
 		(uuid "b70d0dda-366d-42cc-bcc4-36c241f7fa3d")
 		(property "Reference" "U4"
-			(at 101.6 72.39 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +941,7 @@
 			)
 		)
 		(property "Value" "W25Q64JVSSIQ"
-			(at 101.6 74.93 0)
+			(at 132.08 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +949,7 @@
 			)
 		)
 		(property "Footprint" "W25Q16JVSSIQ:SOIC127P790X216-8N"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +968,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +977,7 @@
 			)
 		)
 		(property "MF" "Winbond Electronics"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +987,7 @@
 			)
 		)
 		(property "DESCRIPTION" "3v 16m-Bit Serial Flash Memory With Dual"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +997,7 @@
 			)
 		)
 		(property "PACKAGE" "SOIC-8 Winbond"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1007,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1017,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Winbond"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1027,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/W25Q16JVSSIQ/Winbond/view-part/?ref=eda"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1037,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1047,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q16JVSSIQ/Winbond/view-part/?ref=snap"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1057,7 @@
 			)
 		)
 		(property "MP" "W25Q16JVSSIQ"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1067,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1077,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1087,7 @@
 			)
 		)
 		(property "Description_1" "FLASH - NOR Memory IC 16Mb (2M x 8) SPI - Quad I/O 133 MHz 8-SOIC"
-			(at 101.6 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,208 +1124,6 @@
 			(project "recovery_system_tilt_switch"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc1e1d3c-3b6c-4217-9734-65c4de7ce5b3")
-		(property "Reference" "#PWR054"
-			(at 194.31 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 201.93 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 198.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2b9dc42-7d5a-472e-9508-c9a1e4c1a4bc")
-		)
-		(instances
-			(project "recovery_system_tilt_switch"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2f2411a-b299-4d7f-ac3f-636804c3cae8")
-		(property "Reference" "#PWR053"
-			(at 194.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 201.93 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42aae35d-716f-4f80-bd4f-d54d514a9042")
-		)
-		(instances
-			(project "recovery_system_tilt_switch"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 100.33 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1c00d94-9c09-4b7c-8ad1-3388c872b053")
-		(property "Reference" "#PWR056"
-			(at 204.47 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae81dac8-df05-4fb5-adee-5f4c641b18b8")
-		)
-		(instances
-			(project "recovery_system_tilt_switch"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
