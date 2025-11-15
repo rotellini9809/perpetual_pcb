@@ -565,6 +565,16 @@
 		)
 		(uuid "239d32b5-7464-4076-a081-5c237ef52103")
 	)
+	(text "nuova mem:\nW25Q128JVSIQ SOP8"
+		(exclude_from_sim no)
+		(at 164.084 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfea9f94-ddfd-4975-b55e-e00403b8dec5")
+	)
 	(global_label "CS_memo1"
 		(shape input)
 		(at 109.22 83.82 180)

@@ -2718,7 +2718,29 @@
 			)
 		)
 	)
-	(global_label "TX_ble"
+	(global_label "RX_ble"
+		(shape input)
+		(at 82.55 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ea78cb7-edbf-49ed-aef1-b2220934f8fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.2149 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "conn_status_ble"
 		(shape input)
 		(at 105.41 58.42 270)
 		(fields_autoplaced yes)
@@ -2728,9 +2750,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0f63445f-bcf7-4a38-802a-61c104ab7fbf")
+		(uuid "1513b6ea-31c9-4b8f-908f-b8f09cddcfde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.41 67.4527 90)
+			(at 105.41 76.5844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,6 +2806,50 @@
 			)
 		)
 	)
+	(global_label "TX_ble"
+		(shape input)
+		(at 82.55 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21a02473-ab16-4ef2-9177-0818d80ba940")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.5173 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_GPS"
+		(shape input)
+		(at 115.57 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23cd2c52-6dd4-4f78-9098-ed03ef57c9c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.7518 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "conn_status_ble"
 		(shape input)
 		(at 64.77 38.1 180)
@@ -2802,28 +2868,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX_ble"
-		(shape input)
-		(at 115.57 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30cf8f5e-992e-4d3f-9684-23c430e15d58")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9051 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2894,28 +2938,6 @@
 			)
 		)
 	)
-	(global_label "TX_GPS"
-		(shape input)
-		(at 82.55 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46e6ee53-cad0-413d-b5bb-dc3eaad0b691")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.6706 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MISO"
 		(shape input)
 		(at 77.47 92.71 0)
@@ -2934,28 +2956,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX_GPS"
-		(shape input)
-		(at 82.55 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4dcf3ddb-0210-491f-b30f-8d55ffaa033f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3682 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3022,6 +3022,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_SDA"
+		(shape input)
+		(at 64.77 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f2baa60-21ee-40c9-868a-f298050d1bc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.7738 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3105,6 +3127,28 @@
 		(uuid "80d1de63-60ee-45bb-a313-1606f54086cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.4494 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_SCL"
+		(shape input)
+		(at 77.47 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "931ae448-b4a9-42a8-bb46-14bf92fb1d4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,24 +3312,24 @@
 			)
 		)
 	)
-	(global_label "GPIO15"
+	(global_label "EINT1 BLE"
 		(shape input)
-		(at 64.77 97.79 180)
+		(at 256.54 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "cacb7827-94fa-4092-a58e-94945bb1c52a")
+		(uuid "c9b1c93a-7af9-4090-822e-2c22ea4f7211")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8905 97.79 0)
+			(at 269.2013 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3303,6 +3347,28 @@
 		(uuid "dabdfd41-e10d-4ba8-b30a-f414fe4c2767")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.2047 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_GPS"
+		(shape input)
+		(at 115.57 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3fadbc8-7456-4647-b234-1ce9178d21bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.4494 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,28 +3400,6 @@
 			)
 		)
 	)
-	(global_label "GPIO14"
-		(shape input)
-		(at 77.47 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f45f4a81-5b04-4156-9e88-2e477c030c89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.3495 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape input)
 		(at 115.57 38.1 0)
@@ -3369,6 +3413,28 @@
 		(uuid "f9f3dbe1-f8d1-42b2-9809-0bede0dcdfbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 123.1514 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EINT1 BLE"
+		(shape input)
+		(at 115.57 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcb1e5e0-a5f6-4a61-b10d-d7c27991ce21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.2313 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
