@@ -1,0 +1,13 @@
+Attenzione: Correzione larghezza vincolata. La correzione larghezza deve essere compresa tra [0,000001 mm; 0,199999 mm] per le correnti regole di progettazione.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-F_Cu.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-B_Cu.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-F_Paste.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-B_Paste.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-F_Mask.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-B_Mask.gbr'.
+Plotted to 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\rotel\Desktop\recovery_system_ble\fabrication_files\recovery_system_tilt_switch-job.gbrjob'.
+Info: Done.
+Info: Done.
