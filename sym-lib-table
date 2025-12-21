@@ -8,4 +8,5 @@
   (lib (name "W25Q16JVSSIQ")(type "KiCad")(uri "${KIPRJMOD}/libs/W25Q16JVSSIQ/W25Q16JVSSIQ.kicad_sym")(options "")(descr ""))
   (lib (name "JDY-23")(type "KiCad")(uri "${KIPRJMOD}/libs/JDY-23/JDY-23.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-18_09-28-42")(type "KiCad")(uri "${KIPRJMOD}/libs/LIS3MDL/2024-10-18_09-28-42.kicad_sym")(options "")(descr ""))
+  (lib (name "WAGO_SMD_2060")(type "KiCad")(uri "${KIPRJMOD}/libs/WAGO_SMD_2060/WAGO_SMD_2060.kicad_sym")(options "")(descr ""))
 )
