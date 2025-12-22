@@ -10,4 +10,5 @@
   (lib (name "JDY-23")(type "KiCad")(uri "${KIPRJMOD}/libs/JDY-23/JDY-23.pretty")(options "")(descr ""))
   (lib (name "LIS3MDL")(type "KiCad")(uri "${KIPRJMOD}/libs/LIS3MDL/LIS3MDL.pretty")(options "")(descr ""))
   (lib (name "WAGO_SMD_2060")(type "KiCad")(uri "${KIPRJMOD}/libs/WAGO_SMD_2060/WAGO_SMD_2060.pretty")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/libs/logo/logo.pretty")(options "")(descr ""))
 )
