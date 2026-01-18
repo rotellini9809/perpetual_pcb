@@ -103,6 +103,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -9500,7 +9501,7 @@
 		)
 	)
 	(gr_text "hw"
-		(at 159.902729 89.3 180)
+		(at 161.225 90 0)
 		(layer "B.SilkS")
 		(uuid "55bb98bc-3fd7-4743-9814-f75f810ccae2")
 		(effects
