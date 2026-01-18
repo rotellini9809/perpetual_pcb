@@ -3390,28 +3390,6 @@
 			)
 		)
 	)
-	(global_label "EINT1 BLE"
-		(shape input)
-		(at 115.57 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fcb1e5e0-a5f6-4a61-b10d-d7c27991ce21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.2313 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "2025-03-30_23-49-35:MC7805CD2TR4G")
 		(at 66.04 160.02 0)

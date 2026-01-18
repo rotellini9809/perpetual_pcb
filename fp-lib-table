@@ -2,7 +2,6 @@
   (version 7)
   (lib (name "RP2350_Tiny")(type "KiCad")(uri "${KIPRJMOD}/libs/RP2350_Tiny/RP2350_Tiny.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/libs/MC7805CD2TR4G/footprints.pretty")(options "")(descr ""))
-  (lib (name "MC7805CD2TR4G")(type "KiCad")(uri "${KIPRJMOD}/libs/MC7805CD2TR4G/MC7805CD2TR4G.pretty")(options "")(descr ""))
   (lib (name "bmp390")(type "KiCad")(uri "${KIPRJMOD}/libs/bmp390/bmp390.pretty")(options "")(descr ""))
   (lib (name "LSM6DSO32TR")(type "KiCad")(uri "${KIPRJMOD}/libs/LSM6DSO32TR/LSM6DSO32TR.pretty")(options "")(descr ""))
   (lib (name "RT8059GJ5")(type "KiCad")(uri "${KIPRJMOD}/libs/RT8059GJ5/RT8059GJ5.pretty")(options "")(descr ""))
