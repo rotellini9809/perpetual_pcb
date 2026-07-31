@@ -185,7 +185,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d48e6b48-158a-409a-8ef4-0ba48b97db2b")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -664,7 +664,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6c46e8bd-7d6f-4995-b404-1f04181c6b05")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -963,7 +963,7 @@
 		(property ki_fp_filters "D2PAK3_ONS D2PAK3_ONS-M D2PAK3_ONS-L")
 		(path "/0174504f-3d4b-4372-8a8a-9f13ba739bc6")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2754,7 +2754,7 @@
 		)
 		(path "/c25e46ed-dbe4-437b-b9ee-000a5df0b088")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3368,7 +3368,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b411f9c2-7b50-4bb2-b68f-cc61080fd9cf")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4296,7 +4296,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/56b22e76-c341-4909-b871-6d24dc4a1855")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7185,7 +7185,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d17e08f5-a9ce-4c8d-8ec5-9d0fa171425b")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7990,7 +7990,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0b0227ca-6083-4d57-aec0-cf6a30edc545")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8271,7 +8271,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/2b809251-631b-4994-8ed4-2494744a930f")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8373,7 +8373,7 @@
 		)
 		(path "/bf747872-c4e6-4b67-ac6c-ad660fe3ad33")
 		(sheetname "/")
-		(sheetfile "recovery_system_tilt_switch.kicad_sch")
+		(sheetfile "perpetual.kicad_sch")
 		(solder_mask_margin 0.2)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)

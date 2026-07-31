@@ -507,7 +507,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "recovery_system_tilt_switch.kicad_pro",
+    "filename": "perpetual.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -662,8 +662,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "recovery_system_tilt_switch.kicad_sch",
-        "name": "recovery_system_tilt_switch",
+        "filename": "perpetual.kicad_sch",
+        "name": "perpetual",
         "uuid": "fb2bb2c7-58ea-4bbf-92a3-79d77fad238e"
       }
     ],
@@ -673,7 +673,7 @@
   "sheets": [
     [
       "fb2bb2c7-58ea-4bbf-92a3-79d77fad238e",
-      "recovery_system_tilt_switch"
+      "perpetual"
     ],
     [
       "8d427300-d9c5-40cc-88ae-db4c84e60bec",
