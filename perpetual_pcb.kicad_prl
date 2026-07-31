@@ -60,7 +60,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "perpetual.kicad_prl",
+    "filename": "perpetual_pcb.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

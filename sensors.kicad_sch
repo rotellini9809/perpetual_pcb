@@ -2341,7 +2341,7 @@
 			(uuid "0f581427-a175-4233-8c34-369df7623d24")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "U9")
 					(unit 1)
@@ -2467,7 +2467,7 @@
 			(uuid "747c941b-140c-4722-a453-3d32b178945d")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "C14")
 					(unit 1)
@@ -2546,7 +2546,7 @@
 			(uuid "b4ea2924-2761-465a-904d-eb36f1a2f949")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR052")
 					(unit 1)
@@ -2701,7 +2701,7 @@
 			(uuid "3c1995ee-c99c-4a3b-ba0a-23238e11eda1")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "U7")
 					(unit 1)
@@ -2827,7 +2827,7 @@
 			(uuid "af8e3a36-e4ad-4fdc-9544-3fd799d29e3c")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "C6")
 					(unit 1)
@@ -2977,7 +2977,7 @@
 			(uuid "7e2dc44f-8e80-4ebb-b8a6-b7e5e72281a7")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "U8")
 					(unit 1)
@@ -3056,7 +3056,7 @@
 			(uuid "a71f6fc9-debe-4872-85af-1d160efb6dff")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR050")
 					(unit 1)
@@ -3134,7 +3134,7 @@
 			(uuid "4b3b06ff-e6ac-405e-852e-be17dcee8bf1")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR038")
 					(unit 1)
@@ -3257,7 +3257,7 @@
 			(uuid "d872ca53-52e2-473b-8ce8-e2b0330a44b8")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "C5")
 					(unit 1)
@@ -3336,7 +3336,7 @@
 			(uuid "a43a7012-e156-4b25-b885-d0bfd35d9429")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR045")
 					(unit 1)
@@ -3415,7 +3415,7 @@
 			(uuid "a6a68ec5-00a9-491e-9f00-0fc6ca7b8515")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR046")
 					(unit 1)
@@ -3493,7 +3493,7 @@
 			(uuid "4216c216-19ec-47e5-87b5-dd482eb66659")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR048")
 					(unit 1)
@@ -3572,7 +3572,7 @@
 			(uuid "07cdbbba-3596-471e-aa3c-990f8e16b83a")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR042")
 					(unit 1)
@@ -3697,7 +3697,7 @@
 			(uuid "9753aa4a-b642-4346-83d4-07e179dc3737")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "C13")
 					(unit 1)
@@ -3776,7 +3776,7 @@
 			(uuid "0356c4e3-17c4-4412-8ecb-7d4fa53aa289")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR043")
 					(unit 1)
@@ -3855,7 +3855,7 @@
 			(uuid "9dac9d4c-ce10-4df8-9d6a-e257d83c8d7c")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR044")
 					(unit 1)
@@ -3934,7 +3934,7 @@
 			(uuid "eaeb13eb-f9d5-49ff-aee8-b68895ad3008")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR040")
 					(unit 1)
@@ -4013,7 +4013,7 @@
 			(uuid "3924f424-be58-4eb3-890d-43d7c9c1e7e9")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR049")
 					(unit 1)
@@ -4091,7 +4091,7 @@
 			(uuid "8acddd33-4b34-4c2e-a0cd-e20d780c3861")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR041")
 					(unit 1)
@@ -4170,7 +4170,7 @@
 			(uuid "2e191287-90b4-483f-a4ee-80d89d74daa4")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR039")
 					(unit 1)
@@ -4248,7 +4248,7 @@
 			(uuid "ebee0a54-cd8e-47ec-a2f5-18a51abe3da0")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR051")
 					(unit 1)
@@ -4327,7 +4327,7 @@
 			(uuid "7ae67646-0b2e-49b2-b0aa-f418cc2cadea")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "#PWR047")
 					(unit 1)
@@ -4450,7 +4450,7 @@
 			(uuid "231d0a7e-08a5-4152-beac-292416e94a8f")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "C2")
 					(unit 1)
@@ -4573,7 +4573,7 @@
 			(uuid "c8d1ece7-79d6-4484-a01e-1d0793592632")
 		)
 		(instances
-			(project "perpetual"
+			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/8d427300-d9c5-40cc-88ae-db4c84e60bec"
 					(reference "C1")
 					(unit 1)
