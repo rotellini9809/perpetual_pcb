@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1100" viewBox="0 0 1000 1100">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="260" y="130" width="480" height="820" fill="#f7f7f7" stroke="black" stroke-width="3"/>
+<text x="500" y="170" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold">Waveshare RP2350-Tiny</text>
+<text x="500" y="202" text-anchor="middle" font-family="sans-serif" font-size="18">36 physical pins</text>
+<line x1="740" y1="250" x2="810" y2="250" stroke="black" stroke-width="2"/>
+<text x="730" y="256" text-anchor="end" font-family="monospace" font-size="18">1  GP0</text>
+<line x1="740" y1="305" x2="810" y2="305" stroke="black" stroke-width="2"/>
+<text x="730" y="311" text-anchor="end" font-family="monospace" font-size="18">2  GP1</text>
+<line x1="740" y1="360" x2="810" y2="360" stroke="black" stroke-width="2"/>
+<text x="730" y="366" text-anchor="end" font-family="monospace" font-size="18">3  GP2</text>
+<line x1="740" y1="415" x2="810" y2="415" stroke="black" stroke-width="2"/>
+<text x="730" y="421" text-anchor="end" font-family="monospace" font-size="18">4  GP3</text>
+<line x1="740" y1="470" x2="810" y2="470" stroke="black" stroke-width="2"/>
+<text x="730" y="476" text-anchor="end" font-family="monospace" font-size="18">5  GP4</text>
+<line x1="740" y1="525" x2="810" y2="525" stroke="black" stroke-width="2"/>
+<text x="730" y="531" text-anchor="end" font-family="monospace" font-size="18">6  GP5</text>
+<line x1="740" y1="580" x2="810" y2="580" stroke="black" stroke-width="2"/>
+<text x="730" y="586" text-anchor="end" font-family="monospace" font-size="18">7  GP6</text>
+<line x1="740" y1="635" x2="810" y2="635" stroke="black" stroke-width="2"/>
+<text x="730" y="641" text-anchor="end" font-family="monospace" font-size="18">8  GP7</text>
+<line x1="740" y1="690" x2="810" y2="690" stroke="black" stroke-width="2"/>
+<text x="730" y="696" text-anchor="end" font-family="monospace" font-size="18">9  GP8</text>
+<line x1="190" y1="250" x2="260" y2="250" stroke="black" stroke-width="2"/>
+<text x="270" y="256" text-anchor="start" font-family="monospace" font-size="18">VSYS/5V  23</text>
+<line x1="190" y1="305" x2="260" y2="305" stroke="black" stroke-width="2"/>
+<text x="270" y="311" text-anchor="start" font-family="monospace" font-size="18">GND  22</text>
+<line x1="190" y1="360" x2="260" y2="360" stroke="black" stroke-width="2"/>
+<text x="270" y="366" text-anchor="start" font-family="monospace" font-size="18">3V3  21</text>
+<line x1="190" y1="415" x2="260" y2="415" stroke="black" stroke-width="2"/>
+<text x="270" y="421" text-anchor="start" font-family="monospace" font-size="18">GP29/ADC3  20</text>
+<line x1="190" y1="470" x2="260" y2="470" stroke="black" stroke-width="2"/>
+<text x="270" y="476" text-anchor="start" font-family="monospace" font-size="18">GP28/ADC2  19</text>
+<line x1="190" y1="525" x2="260" y2="525" stroke="black" stroke-width="2"/>
+<text x="270" y="531" text-anchor="start" font-family="monospace" font-size="18">GP27/ADC1  18</text>
+<line x1="190" y1="580" x2="260" y2="580" stroke="black" stroke-width="2"/>
+<text x="270" y="586" text-anchor="start" font-family="monospace" font-size="18">GP26/ADC0  17</text>
+<line x1="190" y1="635" x2="260" y2="635" stroke="black" stroke-width="2"/>
+<text x="270" y="641" text-anchor="start" font-family="monospace" font-size="18">GP15  16</text>
+<line x1="190" y1="690" x2="260" y2="690" stroke="black" stroke-width="2"/>
+<text x="270" y="696" text-anchor="start" font-family="monospace" font-size="18">GP14  15</text>
+<line x1="190" y1="760" x2="260" y2="760" stroke="black" stroke-width="2"/>
+<text x="270" y="766" text-anchor="start" font-family="monospace" font-size="16">3V3  24</text>
+<line x1="190" y1="798" x2="260" y2="798" stroke="black" stroke-width="2"/>
+<text x="270" y="804" text-anchor="start" font-family="monospace" font-size="16">GP23  25</text>
+<line x1="190" y1="836" x2="260" y2="836" stroke="black" stroke-width="2"/>
+<text x="270" y="842" text-anchor="start" font-family="monospace" font-size="16">GP22  26</text>
+<line x1="190" y1="874" x2="260" y2="874" stroke="black" stroke-width="2"/>
+<text x="270" y="880" text-anchor="start" font-family="monospace" font-size="16">GP21  27</text>
+<line x1="190" y1="912" x2="260" y2="912" stroke="black" stroke-width="2"/>
+<text x="270" y="918" text-anchor="start" font-family="monospace" font-size="16">GP20  28</text>
+<line x1="740" y1="760" x2="810" y2="760" stroke="black" stroke-width="2"/>
+<text x="730" y="766" text-anchor="end" font-family="monospace" font-size="16">29  GND</text>
+<line x1="740" y1="798" x2="810" y2="798" stroke="black" stroke-width="2"/>
+<text x="730" y="804" text-anchor="end" font-family="monospace" font-size="16">30  GP16/RGB</text>
+<line x1="740" y1="836" x2="810" y2="836" stroke="black" stroke-width="2"/>
+<text x="730" y="842" text-anchor="end" font-family="monospace" font-size="16">31  GP17</text>
+<line x1="740" y1="874" x2="810" y2="874" stroke="black" stroke-width="2"/>
+<text x="730" y="880" text-anchor="end" font-family="monospace" font-size="16">32  GP18</text>
+<line x1="740" y1="912" x2="810" y2="912" stroke="black" stroke-width="2"/>
+<text x="730" y="918" text-anchor="end" font-family="monospace" font-size="16">33  GP19</text>
+<line x1="380" y1="950" x2="380" y2="1010" stroke="black" stroke-width="2"/>
+<text x="380" y="1040" text-anchor="middle" font-family="monospace" font-size="16">10</text>
+<text x="380" y="1062" text-anchor="middle" font-family="monospace" font-size="14">GP9</text>
+<line x1="440" y1="950" x2="440" y2="1010" stroke="black" stroke-width="2"/>
+<text x="440" y="1040" text-anchor="middle" font-family="monospace" font-size="16">11</text>
+<text x="440" y="1062" text-anchor="middle" font-family="monospace" font-size="14">GP10</text>
+<line x1="500" y1="950" x2="500" y2="1010" stroke="black" stroke-width="2"/>
+<text x="500" y="1040" text-anchor="middle" font-family="monospace" font-size="16">12</text>
+<text x="500" y="1062" text-anchor="middle" font-family="monospace" font-size="14">GP11</text>
+<line x1="560" y1="950" x2="560" y2="1010" stroke="black" stroke-width="2"/>
+<text x="560" y="1040" text-anchor="middle" font-family="monospace" font-size="16">13</text>
+<text x="560" y="1062" text-anchor="middle" font-family="monospace" font-size="14">GP12</text>
+<line x1="620" y1="950" x2="620" y2="1010" stroke="black" stroke-width="2"/>
+<text x="620" y="1040" text-anchor="middle" font-family="monospace" font-size="16">14</text>
+<text x="620" y="1062" text-anchor="middle" font-family="monospace" font-size="14">GP13</text>
+<line x1="440" y1="70" x2="440" y2="130" stroke="black" stroke-width="2"/>
+<text x="440" y="48" text-anchor="middle" font-family="monospace" font-size="14">SWCLK</text>
+<text x="440" y="66" text-anchor="middle" font-family="monospace" font-size="14">34</text>
+<line x1="500" y1="70" x2="500" y2="130" stroke="black" stroke-width="2"/>
+<text x="500" y="48" text-anchor="middle" font-family="monospace" font-size="14">GND</text>
+<text x="500" y="66" text-anchor="middle" font-family="monospace" font-size="14">35</text>
+<line x1="560" y1="70" x2="560" y2="130" stroke="black" stroke-width="2"/>
+<text x="560" y="48" text-anchor="middle" font-family="monospace" font-size="14">SWDIO</text>
+<text x="560" y="66" text-anchor="middle" font-family="monospace" font-size="14">36</text>
+</svg>

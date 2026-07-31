@@ -1,0 +1,37 @@
+pin_number,signal_name,electrical_type,physical_location
+1,GP0,bidirectional,Edge right
+2,GP1,bidirectional,Edge right
+3,GP2,bidirectional,Edge right
+4,GP3,bidirectional,Edge right
+5,GP4,bidirectional,Edge right
+6,GP5,bidirectional,Edge right
+7,GP6,bidirectional,Edge right
+8,GP7,bidirectional,Edge right
+9,GP8,bidirectional,Edge right
+10,GP9,bidirectional,Edge bottom
+11,GP10,bidirectional,Edge bottom
+12,GP11,bidirectional,Edge bottom
+13,GP12,bidirectional,Edge bottom
+14,GP13,bidirectional,Edge bottom
+15,GP14,bidirectional,Edge left
+16,GP15,bidirectional,Edge left
+17,GP26/ADC0,bidirectional,Edge left
+18,GP27/ADC1,bidirectional,Edge left
+19,GP28/ADC2,bidirectional,Edge left
+20,GP29/ADC3,bidirectional,Edge left
+21,3V3,power_out,Edge left
+22,GND,power_in,Edge left
+23,VSYS/5V,power_in,Edge left
+24,3V3,power_out,Underside left column
+25,GP23,bidirectional,Underside left column
+26,GP22,bidirectional,Underside left column
+27,GP21,bidirectional,Underside left column
+28,GP20,bidirectional,Underside left column
+29,GND,power_in,Underside right column
+30,GP16/RGB,bidirectional,Underside right column
+31,GP17,bidirectional,Underside right column
+32,GP18,bidirectional,Underside right column
+33,GP19,bidirectional,Underside right column
+34,SWCLK,input,Underside SWD
+35,GND,power_in,Underside SWD
+36,SWDIO,bidirectional,Underside SWD
