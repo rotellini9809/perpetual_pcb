@@ -667,7 +667,7 @@
         "uuid": "fb2bb2c7-58ea-4bbf-92a3-79d77fad238e"
       }
     ],
-    "used_designators": "U2",
+    "used_designators": "U2-3,U5-6,F1,R1-26,J1,J5-8,#PWR7-12,#PWR17-31,#PWR53-63,D1,Q1-5,C3-4,C7-8,NT1",
     "variants": []
   },
   "sheets": [
@@ -682,6 +682,14 @@
     [
       "0db33a44-20ed-4277-804b-7cdc9b17a476",
       "memories"
+    ],
+    [
+      "90ade924-69fb-4945-8d5c-c927a8833b86",
+      "pyro"
+    ],
+    [
+      "72dd7f40-09f5-4d3d-9817-93d5ef2a3059",
+      "power"
     ]
   ],
   "text_variables": {},

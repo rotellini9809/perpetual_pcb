@@ -627,7 +627,7 @@
 		)
 		(uuid "239d32b5-7464-4076-a081-5c237ef52103")
 	)
-	(text "nuova mem:\nW25Q128JVSIQ SOP8"
+	(text "oppure a 64 Mbyte\nW25Q64JVSIQ SOP8"
 		(exclude_from_sim no)
 		(at 164.084 71.628 0)
 		(effects
@@ -1072,7 +1072,7 @@
 				)
 			)
 		)
-		(property "Value" "W25Q64JVSSIQ"
+		(property "Value" "W25Q128JVSIQ"
 			(at 132.08 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
