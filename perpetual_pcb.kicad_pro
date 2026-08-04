@@ -210,7 +210,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.6,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -244,8 +247,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.254
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -667,7 +670,7 @@
         "uuid": "fb2bb2c7-58ea-4bbf-92a3-79d77fad238e"
       }
     ],
-    "used_designators": "U2-3,U5-6,F1,R1-26,J1,J5-8,#PWR7-12,#PWR17-31,#PWR53-63,D1,Q1-5,C3-4,C7-8,NT1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -676,20 +679,20 @@
       "perpetual_pcb"
     ],
     [
-      "8d427300-d9c5-40cc-88ae-db4c84e60bec",
-      "sensors"
-    ],
-    [
-      "0db33a44-20ed-4277-804b-7cdc9b17a476",
+      "64137a15-e706-4546-9934-32d70761b612",
       "memories"
     ],
     [
-      "90ade924-69fb-4945-8d5c-c927a8833b86",
+      "3da5016b-7dfb-4a91-8530-888c6bbe924b",
+      "power"
+    ],
+    [
+      "aafcc48c-bed9-4abe-a21d-2eb696cc123c",
       "pyro"
     ],
     [
-      "72dd7f40-09f5-4d3d-9817-93d5ef2a3059",
-      "power"
+      "9d548d3b-80a2-410e-a1ab-213fe665196b",
+      "sensors"
     ]
   ],
   "text_variables": {},

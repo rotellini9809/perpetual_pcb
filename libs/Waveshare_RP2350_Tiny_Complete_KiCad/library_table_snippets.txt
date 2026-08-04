@@ -1,5 +1,0 @@
-Project symbol library table entry:
-(lib (name "Waveshare_RP2350_Tiny")(type "KiCad")(uri "${KIPRJMOD}/Waveshare_RP2350_Tiny.kicad_sym")(options "")(descr "Waveshare RP2350-Tiny complete symbol"))
-
-Project footprint library table entry:
-(lib (name "Waveshare_RP2350_Tiny_AllPads")(type "KiCad")(uri "${KIPRJMOD}/Waveshare_RP2350_Tiny_AllPads.pretty")(options "")(descr "Waveshare RP2350-Tiny complete 36-pad footprint"))

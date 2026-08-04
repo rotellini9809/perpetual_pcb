@@ -5,6 +5,161 @@
 	(uuid "ab4944c7-fa7f-47b8-9347-9229d8619b4a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "W25Q16JVSSIQ:W25Q16JVSSIQ"
 			(pin_names
 				(offset 1.016)
@@ -627,15 +782,41 @@
 		)
 		(uuid "239d32b5-7464-4076-a081-5c237ef52103")
 	)
-	(text "oppure a 64 Mbyte\nW25Q64JVSIQ SOP8"
+	(text "oppure a 8 MByte\nW25Q64JVSIQ SOP8"
 		(exclude_from_sim no)
-		(at 164.084 71.628 0)
+		(at 105.41 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "bfea9f94-ddfd-4975-b55e-e00403b8dec5")
+	)
+	(junction
+		(at 163.83 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b8d2668-0526-4b13-8736-24798ba17f06")
+	)
+	(wire
+		(pts
+			(xy 163.83 78.74) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859e1944-ebb5-462f-9b63-a312a557319f")
+	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b083b5b0-0358-43bd-9056-9f975e54037c")
 	)
 	(global_label "CS_memo1"
 		(shape input)
@@ -746,7 +927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a40c349-54b7-4850-a90a-55b0a3df04ea")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR018"
 			(at 161.29 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -802,12 +983,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "edf1b8ae-d466-499e-82dc-0b8185ebbe2c")
+			(uuid "69e3a569-3874-4e97-a069-945690291168")
 		)
 		(instances
 			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR037")
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/64137a15-e706-4546-9934-32d70761b612"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -823,9 +1004,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c1cb8a6-e53e-4610-9758-394f7d0d1cc5")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR016"
 			(at 151.13 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -837,7 +1017,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 158.75 91.4399 90)
+			(at 158.75 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -881,12 +1061,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2931ebd6-43d0-48e7-9d2d-bb054899621c")
+			(uuid "8c3db85e-def2-4325-b496-396f6f617ca5")
 		)
 		(instances
 			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR036")
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/64137a15-e706-4546-9934-32d70761b612"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -904,7 +1084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fef47d6-d3c4-4d74-9f6c-d030007b18f7")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR017"
 			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -960,12 +1140,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a606db8-f91e-4779-98c4-3e8762b1ccb6")
+			(uuid "ea1082b8-9ee1-42fd-aed3-5992f6d035d0")
 		)
 		(instances
 			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR035")
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/64137a15-e706-4546-9934-32d70761b612"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -973,7 +1153,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 154.94 78.74 270)
+		(at 167.64 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -983,8 +1163,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56e3b5f2-51ac-4f7c-8bd1-dcace89415e4")
-		(property "Reference" "#PWR034"
-			(at 151.13 78.74 0)
+		(property "Reference" "#PWR020"
+			(at 163.83 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -995,7 +1175,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 158.75 78.7399 90)
+			(at 171.45 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1006,7 +1186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 78.74 0)
+			(at 167.64 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1017,7 +1197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 78.74 0)
+			(at 167.64 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1028,7 +1208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 154.94 78.74 0)
+			(at 167.64 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1039,12 +1219,217 @@
 			)
 		)
 		(pin "1"
-			(uuid "189fc355-74c6-49d9-966a-46fb387bd48b")
+			(uuid "198812ce-b7dd-4911-9231-23db988fae91")
 		)
 		(instances
 			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "#PWR034")
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/64137a15-e706-4546-9934-32d70761b612"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 71.12 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cc4371-9c2b-4d90-ab2e-a435f4a3b747")
+		(property "Reference" "#PWR019"
+			(at 163.83 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de084b1c-b464-48ed-a0f1-e6f874cf4868")
+		)
+		(instances
+			(project "perpetual_pcb"
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/64137a15-e706-4546-9934-32d70761b612"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85a483ee-bc93-41b2-87d8-6fac65c13e90")
+		(property "Reference" "C1"
+			(at 160.02 76.2001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 160.02 73.6601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.8648 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PurchaseLink" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603JRX7R9BB104_C91183.html"
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0034 "
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR" "lcsc"
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed738856-8f17-44ae-9e07-6cbd0a509130")
+		)
+		(pin "2"
+			(uuid "eff906fd-9c63-448a-a016-8de3fca44f42")
+		)
+		(instances
+			(project "perpetual_pcb"
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/64137a15-e706-4546-9934-32d70761b612"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1062,7 +1447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b70d0dda-366d-42cc-bcc4-36c241f7fa3d")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 132.08 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,33 +1635,33 @@
 			)
 		)
 		(pin "8"
-			(uuid "49da039e-2351-4919-a8f7-60bccaa0e409")
+			(uuid "cecae90f-b8a4-4b70-865b-fa7ff8e4e315")
 		)
 		(pin "6"
-			(uuid "f24cf154-8d12-4c6d-ae54-913f4031cd66")
+			(uuid "7b79c608-689e-4653-b175-0b0f0a311c3c")
 		)
 		(pin "1"
-			(uuid "3364cd26-b219-4896-8d72-9c03fdbe8d4e")
+			(uuid "8ed6e15f-b7a8-4311-9c36-56bed36c94f6")
 		)
 		(pin "5"
-			(uuid "d9ee8fdb-60ea-4bff-a6c6-7af1d3c13312")
+			(uuid "3c29f795-db46-4cc2-92bb-34d8b76fd40a")
 		)
 		(pin "7"
-			(uuid "ae6c9831-6187-49f4-9e7f-b74af54153e0")
+			(uuid "2e16aba8-4291-436e-b143-c8eee5c1bfa0")
 		)
 		(pin "2"
-			(uuid "a9848824-4914-4c4b-9ccb-dae9869a2111")
+			(uuid "92099911-8d4b-4dbf-9999-dde4ddde47d6")
 		)
 		(pin "3"
-			(uuid "722a1c4f-58a1-43d9-930b-cb025a6bec53")
+			(uuid "93804d0a-8cf7-47ca-aa9a-0dcaac44c02b")
 		)
 		(pin "4"
-			(uuid "0783e65b-799c-42c5-86f0-1a44858fa4d7")
+			(uuid "0f11915b-9da9-456b-b472-d66b6ab29b54")
 		)
 		(instances
 			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/0db33a44-20ed-4277-804b-7cdc9b17a476"
-					(reference "U4")
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/64137a15-e706-4546-9934-32d70761b612"
+					(reference "U2")
 					(unit 1)
 				)
 			)
