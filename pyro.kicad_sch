@@ -3147,12 +3147,6 @@
 		(uuid "40940132-f0ac-4fe6-905e-0e1cc0644708")
 	)
 	(junction
-		(at 213.36 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4996bf69-a296-4826-bb67-8cb31b0121ec")
-	)
-	(junction
 		(at 204.47 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3386,16 +3380,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 17.78) (xy 215.9 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0109ba-d03e-4837-9fb3-10f066460f16")
-	)
-	(wire
-		(pts
 			(xy 92.71 109.22) (xy 92.71 110.49)
 		)
 		(stroke
@@ -3466,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 43.18) (xy 213.36 17.78)
+			(xy 213.36 43.18) (xy 213.36 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3533,16 +3517,6 @@
 			(type default)
 		)
 		(uuid "7e988c21-76d8-4d0c-b00b-37a2c9132d6b")
-	)
-	(wire
-		(pts
-			(xy 209.55 17.78) (xy 213.36 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8394d7ed-4b5d-4ffb-bd1b-9cffa4db180a")
 	)
 	(wire
 		(pts
@@ -4601,85 +4575,6 @@
 			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/aafcc48c-bed9-4abe-a21d-2eb696cc123c"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 209.55 17.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08324906-422a-4e2d-8178-2b930a285c92")
-		(property "Reference" "#PWR095"
-			(at 213.36 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 205.74 17.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 209.55 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f641c69a-bc83-4942-a9e9-e6ba21ad541a")
-		)
-		(instances
-			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/aafcc48c-bed9-4abe-a21d-2eb696cc123c"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7847,6 +7742,84 @@
 			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/aafcc48c-bed9-4abe-a21d-2eb696cc123c"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 213.36 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b86b3701-e6f9-4e60-8de9-c82be8f0e3bb")
+		(property "Reference" "#PWR095"
+			(at 213.36 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 213.36 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 213.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bead99f-7670-4874-b1bb-521d2e4216da")
+		)
+		(instances
+			(project "perpetual_pcb"
+				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/aafcc48c-bed9-4abe-a21d-2eb696cc123c"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
