@@ -8029,7 +8029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 140.6652 58.42 0)
 			(hide yes)
 			(show_name no)
