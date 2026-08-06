@@ -782,15 +782,35 @@
 		)
 		(uuid "239d32b5-7464-4076-a081-5c237ef52103")
 	)
-	(text "oppure a 8 MByte\nW25Q64JVSIQ SOP8"
+	(text "oppure a 8 MByte\nW25Q64JVSSIQ SOP8"
 		(exclude_from_sim no)
-		(at 105.41 71.12 0)
+		(at 200.914 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "bfea9f94-ddfd-4975-b55e-e00403b8dec5")
+	)
+	(text "GYgabyte cheaper alternative\nsame footprint\nGD25Q128ESIG"
+		(exclude_from_sim no)
+		(at 191.262 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d505adcc-e3e1-4d6c-8395-7a60d6b6af62")
+	)
+	(text "da 32 MB\nsame footprint\nPY25Q256HB"
+		(exclude_from_sim no)
+		(at 213.614 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3dca8c5-4d9f-435e-a75d-ba68693e7bcb")
 	)
 	(junction
 		(at 163.83 78.74)
