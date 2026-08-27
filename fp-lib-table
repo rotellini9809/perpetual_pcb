@@ -17,4 +17,5 @@
 	(lib (name "3PEAK TPW4054-VR") (type "KiCad") (uri "${KIPRJMOD}/libs/3PEAK_TPW4054-VR/3PEAK_TPW4054-VR.pretty") (options "") (descr ""))
 	(lib (name "SRN6045TA-100M") (type "KiCad") (uri "${KIPRJMOD}/libs/SRN6045TA-100M/SRN6045TA-100M.pretty") (options "") (descr ""))
 	(lib (name "30P20M") (type "KiCad") (uri "${KIPRJMOD}/libs/30P20M/30P20M.pretty") (options "") (descr ""))
+	(lib (name "WAGO_2060-452") (type "KiCad") (uri "${KIPRJMOD}/libs/WAGO_2060-452/WAGO_2060-452.pretty") (options "") (descr ""))
 )

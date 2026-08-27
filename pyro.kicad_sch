@@ -3135,6 +3135,12 @@
 		(uuid "aa795bbb-ee57-4477-af18-2bee7fef493c")
 	)
 	(junction
+		(at 213.36 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0778ddbe-2e41-4ee7-941d-42dd4b591866")
+	)
+	(junction
 		(at 205.74 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3147,16 +3153,16 @@
 		(uuid "0b3371e2-3a88-489d-884d-9cf6a303a304")
 	)
 	(junction
+		(at 213.36 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "181f5887-752b-4701-b098-0d282d9b5a5f")
+	)
+	(junction
 		(at 205.74 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11487351-0f73-4113-a01b-ea768a45c725")
-	)
-	(junction
-		(at 213.36 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40940132-f0ac-4fe6-905e-0e1cc0644708")
+		(uuid "61b6bb20-7080-42e0-9fab-210557e224c4")
 	)
 	(junction
 		(at 177.8 40.64)
@@ -3195,6 +3201,12 @@
 		(uuid "a7141b1f-a54d-432d-97fb-8b3869f0bd1c")
 	)
 	(junction
+		(at 213.36 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abf6aa0c-cb0e-4806-aa98-5e47672ede78")
+	)
+	(junction
 		(at 204.47 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3205,12 +3217,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd4d9a39-3c1c-4d15-b65e-17cc23fe064a")
-	)
-	(junction
-		(at 213.36 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be44efe9-9bbf-4982-baa7-1ee5dd5bf6b2")
 	)
 	(junction
 		(at 92.71 110.49)
@@ -3242,12 +3248,6 @@
 		(color 0 0 0 0)
 		(uuid "f0ebc04c-6631-46b7-9302-c37bae2b999a")
 	)
-	(junction
-		(at 213.36 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f573d62f-7017-418f-a296-6d08c15425c9")
-	)
 	(wire
 		(pts
 			(xy 137.16 22.86) (xy 137.16 19.05)
@@ -3270,13 +3270,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 77.47) (xy 226.06 77.47)
+			(xy 226.06 43.18) (xy 213.36 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a3a10f5-cef4-47ad-a8f1-4b12438ef4de")
+		(uuid "0dee9b79-52ff-436b-a3bf-dce16e7bfc4d")
 	)
 	(wire
 		(pts
@@ -3300,16 +3300,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 113.03) (xy 213.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1320ee57-03ac-4506-96df-c9f4323b4bec")
-	)
-	(wire
-		(pts
 			(xy 173.99 110.49) (xy 176.53 110.49)
 		)
 		(stroke
@@ -3320,6 +3310,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 147.32) (xy 226.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202e081f-147f-4a21-bbce-fb800c97872f")
+	)
+	(wire
+		(pts
 			(xy 170.18 48.26) (xy 172.72 48.26)
 		)
 		(stroke
@@ -3327,16 +3327,6 @@
 			(type default)
 		)
 		(uuid "2207e319-6f87-4d46-8de3-d17f6e959677")
-	)
-	(wire
-		(pts
-			(xy 226.06 43.18) (xy 213.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "271bdde9-a316-4828-a02b-83a5f900f7df")
 	)
 	(wire
 		(pts
@@ -3357,6 +3347,16 @@
 			(type default)
 		)
 		(uuid "29768930-b11d-4e2b-bab9-8d8ff7e94f38")
+	)
+	(wire
+		(pts
+			(xy 213.36 26.67) (xy 213.36 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b867e67-5670-4317-85d8-5b76860778f0")
 	)
 	(wire
 		(pts
@@ -3440,13 +3440,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 43.18) (xy 213.36 26.67)
+			(xy 213.36 43.18) (xy 213.36 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d86ea3f-a74a-4892-9c73-19bf23cb3bab")
+		(uuid "3f1a6ce1-2561-4fc9-b177-2537c2320a62")
 	)
 	(wire
 		(pts
@@ -3560,23 +3560,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 147.32) (xy 213.36 147.32)
+			(xy 213.36 77.47) (xy 226.06 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ed79212-39c0-4d1c-972e-a1eaa96fe7e6")
-	)
-	(wire
-		(pts
-			(xy 213.36 77.47) (xy 213.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95805591-4729-48b1-b897-a3817d30a832")
+		(uuid "87eeb7f0-93e3-4e34-bfd0-57da64061a93")
 	)
 	(wire
 		(pts
@@ -3590,16 +3580,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 43.18) (xy 213.36 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ba753c-0537-41df-807d-ab3141aa570d")
-	)
-	(wire
-		(pts
 			(xy 204.47 40.64) (xy 205.74 40.64)
 		)
 		(stroke
@@ -3610,13 +3590,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 48.26) (xy 226.06 48.26)
+			(xy 213.36 113.03) (xy 226.06 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4ded2a3-ea50-46cb-a553-6f6f7636b05a")
+		(uuid "a580f9dc-480f-4b39-a377-8ff3d11a0d61")
 	)
 	(wire
 		(pts
@@ -3637,6 +3617,16 @@
 			(type default)
 		)
 		(uuid "b92a26ee-dc10-451b-9cfc-84a0e00b36d5")
+	)
+	(wire
+		(pts
+			(xy 213.36 113.03) (xy 213.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5c6996-d56c-471f-b6a7-193d75c91435")
 	)
 	(wire
 		(pts
@@ -3680,7 +3670,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 147.32) (xy 213.36 113.03)
+			(xy 213.36 77.47) (xy 213.36 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3767,6 +3757,16 @@
 			(type default)
 		)
 		(uuid "ea1e9658-44d1-4ddb-91c4-fe3308f6b399")
+	)
+	(wire
+		(pts
+			(xy 205.74 48.26) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec367490-1dd9-44ac-9aba-bc00a90ee75b")
 	)
 	(wire
 		(pts
@@ -4905,7 +4905,8 @@
 	)
 	(symbol
 		(lib_id "WAGO 2059-302998-403:2059-302_998-403")
-		(at 226.06 147.32 0)
+		(at 226.06 154.94 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4913,10 +4914,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29ac2019-7169-4bb5-82f6-fff57f9a5aec")
 		(property "Reference" "J10"
-			(at 240.03 149.8599 0)
+			(at 240.03 152.4001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4927,7 +4927,7 @@
 			)
 		)
 		(property "Value" "2059-302/998-403"
-			(at 240.03 152.3999 0)
+			(at 240.03 149.8601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4937,8 +4937,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WAGO_2059-302998-403:CONN2_2059-302&slash_998-403_WAG"
-			(at 226.06 147.32 0)
+		(property "Footprint" "WAGO_2060-452:CONN2_2060-452&slash_998-404_WAG"
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4950,7 @@
 			)
 		)
 		(property "Datasheet" "2059-302/998-403"
-			(at 226.06 147.32 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +4962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 147.32 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5156,7 +5156,8 @@
 	)
 	(symbol
 		(lib_id "WAGO 2059-302998-403:2059-302_998-403")
-		(at 226.06 113.03 0)
+		(at 226.06 120.65 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5164,10 +5165,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cc6c224-6257-4702-bec3-aef8f83ba2eb")
 		(property "Reference" "J9"
-			(at 240.03 115.5699 0)
+			(at 240.03 118.1101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5178,7 +5178,7 @@
 			)
 		)
 		(property "Value" "2059-302/998-403"
-			(at 240.03 118.1099 0)
+			(at 240.03 115.5701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5188,8 +5188,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WAGO_2059-302998-403:CONN2_2059-302&slash_998-403_WAG"
-			(at 226.06 113.03 0)
+		(property "Footprint" "WAGO_2060-452:CONN2_2060-452&slash_998-404_WAG"
+			(at 226.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,7 +5201,7 @@
 			)
 		)
 		(property "Datasheet" "2059-302/998-403"
-			(at 226.06 113.03 0)
+			(at 226.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5213,7 +5213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 113.03 0)
+			(at 226.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6241,7 +6241,8 @@
 	)
 	(symbol
 		(lib_id "WAGO 2059-302998-403:2059-302_998-403")
-		(at 226.06 77.47 0)
+		(at 226.06 85.09 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6249,10 +6250,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6df2f4cd-9575-41b1-b8ac-b4bf1e9474a9")
 		(property "Reference" "J8"
-			(at 240.03 80.0099 0)
+			(at 240.03 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6263,7 +6263,7 @@
 			)
 		)
 		(property "Value" "2059-302/998-403"
-			(at 240.03 82.5499 0)
+			(at 240.03 80.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6273,8 +6273,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WAGO_2059-302998-403:CONN2_2059-302&slash_998-403_WAG"
-			(at 226.06 77.47 0)
+		(property "Footprint" "WAGO_2060-452:CONN2_2060-452&slash_998-404_WAG"
+			(at 226.06 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +6286,7 @@
 			)
 		)
 		(property "Datasheet" "2059-302/998-403"
-			(at 226.06 77.47 0)
+			(at 226.06 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,7 +6298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 77.47 0)
+			(at 226.06 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7176,7 +7176,8 @@
 	)
 	(symbol
 		(lib_id "WAGO 2059-302998-403:2059-302_998-403")
-		(at 226.06 43.18 0)
+		(at 226.06 50.8 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7184,10 +7185,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8afc9d06-52bd-482d-98ff-6081a1df0547")
 		(property "Reference" "J7"
-			(at 240.03 45.7199 0)
+			(at 240.03 48.2601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7198,7 +7198,7 @@
 			)
 		)
 		(property "Value" "2059-302/998-403"
-			(at 240.03 48.2599 0)
+			(at 240.03 45.7201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7208,8 +7208,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WAGO_2059-302998-403:CONN2_2059-302&slash_998-403_WAG"
-			(at 226.06 43.18 0)
+		(property "Footprint" "WAGO_2060-452:CONN2_2060-452&slash_998-404_WAG"
+			(at 226.06 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7221,7 +7221,7 @@
 			)
 		)
 		(property "Datasheet" "2059-302/998-403"
-			(at 226.06 43.18 0)
+			(at 226.06 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7233,7 +7233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 43.18 0)
+			(at 226.06 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

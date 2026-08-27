@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -645,13 +645,34 @@
       {
         "filename": "perpetual_pcb.kicad_sch",
         "name": "perpetual_pcb",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "fb2bb2c7-58ea-4bbf-92a3-79d77fad238e"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "fb2bb2c7-58ea-4bbf-92a3-79d77fad238e",
+      "perpetual_pcb"
+    ],
+    [
+      "64137a15-e706-4546-9934-32d70761b612",
+      "memories"
+    ],
+    [
+      "3da5016b-7dfb-4a91-8530-888c6bbe924b",
+      "power"
+    ],
+    [
+      "aafcc48c-bed9-4abe-a21d-2eb696cc123c",
+      "pyro"
+    ],
+    [
+      "9d548d3b-80a2-410e-a1ab-213fe665196b",
+      "sensors"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
