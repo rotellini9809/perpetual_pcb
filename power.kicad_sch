@@ -4425,7 +4425,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS126"
+		(property "Value" "74HCT126PW"
 			(at 62.23 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,7 +4849,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS126"
+		(property "Value" "74HCT126PW"
 			(at 53.34 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8867,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS126"
+		(property "Value" "74HCT126PW"
 			(at 62.23 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9358,7 +9358,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS126"
+		(property "Value" "74HCT126PW"
 			(at 62.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11663,7 +11663,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS126"
+		(property "Value" "74HCT126PW"
 			(at 62.23 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11770,7 +11770,7 @@
 		(fields_autoplaced yes)
 		(uuid "eefd3844-f75d-4677-b5a3-7274d39d6cf8")
 		(property "Reference" "Q1"
-			(at 191.26 113.03 0)
+			(at 189.865 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11780,7 +11780,7 @@
 			)
 		)
 		(property "Value" "30P20M"
-			(at 191.26 115.57 0)
+			(at 189.865 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
