@@ -4944,84 +4944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 85.09 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e603c58-a25a-4dd0-88e4-8064e71bddde")
-		(property "Reference" "#PWR032"
-			(at 85.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 85.09 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 85.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bfbd567e-8f38-45df-912f-c1f572d61df4")
-		)
-		(instances
-			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/3da5016b-7dfb-4a91-8530-888c6bbe924b"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 237.49 60.96 0)
 		(unit 1)
@@ -5122,7 +5044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "24k"
 			(at 222.25 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,84 +5806,6 @@
 			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/3da5016b-7dfb-4a91-8530-888c6bbe924b"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cdbfb25-f940-4b8c-83c1-8d9cc126ff4b")
-		(property "Reference" "#PWR033"
-			(at 85.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SERVO_GND"
-			(at 85.09 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e99ed71-4deb-4590-a017-297f54631c98")
-		)
-		(instances
-			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/3da5016b-7dfb-4a91-8530-888c6bbe924b"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7029,7 +6873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24K"
+		(property "Value" "100K"
 			(at 222.25 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12352,98 +12196,6 @@
 			(project "perpetual_pcb"
 				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/3da5016b-7dfb-4a91-8530-888c6bbe924b"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 85.09 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc46b293-02ed-4560-a802-95bd679c6c7b")
-		(property "Reference" "C3"
-			(at 89.408 41.148 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470 uF"
-			(at 88.392 43.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
-			(at 86.0552 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ROQANG VT1C471M0810"
-			(at 85.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC part" "C141429"
-			(at 85.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8bc8fc0c-7eb7-4f57-82f0-6a3c9a8882c8")
-		)
-		(pin "1"
-			(uuid "710559dc-cb39-4bb1-a216-c9d651204dd8")
-		)
-		(instances
-			(project "perpetual_pcb"
-				(path "/fb2bb2c7-58ea-4bbf-92a3-79d77fad238e/3da5016b-7dfb-4a91-8530-888c6bbe924b"
-					(reference "C3")
 					(unit 1)
 				)
 			)

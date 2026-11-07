@@ -17,4 +17,5 @@
 	(lib (name "SRN6045TA-100M") (type "KiCad") (uri "${KIPRJMOD}/libs/SRN6045TA-100M/SRN6045TA-100M.kicad_sym") (options "") (descr ""))
 	(lib (name "30P20M") (type "KiCad") (uri "${KIPRJMOD}/libs/30P20M/30P20M.kicad_sym") (options "") (descr ""))
 	(lib (name "JDY-34") (type "KiCad") (uri "${KIPRJMOD}/libs/JDY-34/JDY-34.kicad_sym") (options "") (descr ""))
+	(lib (name "bmp581") (type "KiCad") (uri "${KIPRJMOD}/libs/bmp581/bmp581.kicad_sym") (options "") (descr ""))
 )
