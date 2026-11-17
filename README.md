@@ -31,19 +31,24 @@ Flight logs are stored in the onboard flash and can be retrieved through the ass
 
 <!-- Add the images under docs/images/ when available. -->
 
-**Front**
-
-![PCB front — image pending](docs/images/pcb-front.png)
-
-**Back**
-
-![PCB back — image pending](docs/images/pcb-back.png)
+<table>
+  <tr>
+    <th>Front</th>
+    <th>Back</th>
+  </tr>
+  <tr>
+    <td><img src="docs/images/pcb-front.png" alt="PCB front — image pending" width="380"></td>
+    <td><img src="docs/images/pcb-back.png" alt="PCB back — image pending" width="380"></td>
+  </tr>
+</table>
 
 ## Servo power configuration
 
 Each of the four servo outputs has an independent solder bridge on the back of the PCB. The bridge selects either the regulated **5 V** rail or the **+BATT** rail for that servo.
 
-![Rear solder bridges with channel labels and supply options](docs/images/servo-power-selection-back.png)
+<p align="center">
+  <img src="docs/images/servo-power-selection-back.png" alt="Rear solder bridges with channel labels and supply options" width="450">
+</p>
 
 To configure a channel:
 
