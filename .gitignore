@@ -1,6 +1,35 @@
-# KiCad automatic backups
-*-backups/
+# KiCad — https://www.kicad.org/
 
-# KiCad lock files
+# Automatic backups
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-save.pro
+*-save.kicad_pcb
+*.000
+*.bck
+_autosave-*
+\#auto_saved_files#
+
+# Lock files (created while a file is open in KiCad)
 ~*.lck
 *.lck
+
+# Local, per-user state
+*.kicad_prl
+fp-info-cache
+
+# Netlist and autorouter exports
+*.net
+*.dsn
+*.ses
+
+# Temporary files
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
