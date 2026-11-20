@@ -15,12 +15,9 @@ drift checks. Holding the board by hand during arming bakes a gyroscope bias int
 | Base plate | 50 × 80 mm, 4 mm thick: the same outline as the board |
 | Posts | 4, on the board's [mounting holes](../../README.md#mechanical): 3.5 mm from each edge, 43 × 73 mm apart |
 | Post size | Ø5.5 mm, 7 mm tall: the board sits 7 mm above the plate, with room for the components on the back |
-| Screw holes | Ø2.1 mm, 7 mm deep, blind: pilot holes for M2.5 screws |
+| Screw holes | Ø2.1 mm, 7 mm deep, blind: M2.5 screws go straight into the PLA |
 
-## Printing and assembly
+## Assembly
 
-Print it flat, with the base plate on the bed; the posts need no supports.
-
-Fix the board with four **M2.5 screws, 6–8 mm long**, threaded directly into the pilot holes. The
-board is 1.6 mm thick, so an 8 mm screw goes about 6.4 mm into a 7 mm hole. Do not overtighten
-the screws in plastic.
+The stand is printed in PLA. Fix the board with four **M2.5 screws, 6–8 mm long**, screwed directly
+into the post holes.
