@@ -157,6 +157,10 @@ To configure a channel:
 Pyro terminals sit on one short edge, and the servo headers and XT30 on the other. Leave room
 beside the XT30 and the push-in terminals for the cables.
 
+**Bench stand.** A printable stand that holds the board still for IMU calibration and bench tests
+is in [`mechanical/bench-stand/`](mechanical/bench-stand). It fixes the board on its four mounting
+holes with M2.5 screws.
+
 ## Programming
 
 The board is programmed over USB through the **flex cable and USB-C adapter board** supplied
@@ -197,6 +201,7 @@ and for the module, the bootloader and the adapter board, see the
 | [`libs/`](libs) | Project symbols, footprints and 3D models |
 | [`fabrication_files/`](fabrication_files) | Gerber and drill files |
 | [`bom/`](bom) | Interactive BOM (`ibom.html`) |
+| [`mechanical/`](mechanical) | 3D-printable parts: the bench stand |
 | [`docs/`](docs) | Images, mechanical drawing and component datasheets |
 
 ## Manufacturing
