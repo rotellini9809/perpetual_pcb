@@ -5254,7 +5254,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "64137a15-e706-4546-9934-32d70761b612")
-		(property "Sheetname" "memories"
+		(property "Sheetname" "memory"
 			(at 100.33 172.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5265,7 +5265,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "meories.kicad_sch"
+		(property "Sheetfile" "memory.kicad_sch"
 			(at 100.33 184.7346 0)
 			(show_name no)
 			(do_not_autoplace no)

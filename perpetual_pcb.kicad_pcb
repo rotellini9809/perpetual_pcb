@@ -10537,8 +10537,8 @@
 			)
 		)
 		(path "/64137a15-e706-4546-9934-32d70761b612/b70d0dda-366d-42cc-bcc4-36c241f7fa3d")
-		(sheetname "/memories/")
-		(sheetfile "meories.kicad_sch")
+		(sheetname "/memory/")
+		(sheetfile "memory.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15138,8 +15138,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/64137a15-e706-4546-9934-32d70761b612/85a483ee-bc93-41b2-87d8-6fac65c13e90")
-		(sheetname "/memories/")
-		(sheetfile "meories.kicad_sch")
+		(sheetname "/memory/")
+		(sheetfile "memory.kicad_sch")
 		(units
 			(unit
 				(name "A")

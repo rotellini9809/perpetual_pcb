@@ -107,8 +107,6 @@ The RP2350 Tiny provides the 3.3 V rail. Its VSYS input is fed from the 5 V rail
 sensors run, but the servo buffer, servos and pyro channels have no supply. The battery voltage is
 measured by the MCU through a 100 kΩ / 24 kΩ divider.
 
-<!-- TODO: maximum pyro channel current. -->
-
 ## Pyro channels
 
 Each channel is a WAGO 2060 push-in terminal between `+BATT` and the drain of an **AO3400A**
@@ -196,7 +194,7 @@ and for the module, the bootloader and the adapter board, see the
 | Path | Contents |
 | --- | --- |
 | `perpetual_pcb.kicad_pro` | KiCad project: open this file |
-| `perpetual_pcb.kicad_sch` | Top-level schematic, with the `power`, `pyro`, `sensors` and memory (`meories.kicad_sch`) sub-sheets |
+| `perpetual_pcb.kicad_sch` | Top-level schematic, with the `power`, `pyro`, `sensors` and `memory` sub-sheets |
 | `perpetual_pcb.kicad_pcb` | PCB layout (4 layers) |
 | [`libs/`](libs) | Project symbols, footprints and 3D models |
 | [`fabrication_files/`](fabrication_files) | Gerber and drill files |
