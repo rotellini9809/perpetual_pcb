@@ -35,7 +35,9 @@
 - [Gallery](#gallery)
 - [Connectors](#connectors)
 - [Power](#power)
+- [Pyro channels](#pyro-channels)
 - [Servo power configuration](#servo-power-configuration)
+- [Mechanical](#mechanical)
 - [Programming](#programming)
 - [Repository layout](#repository-layout)
 - [Manufacturing](#manufacturing)
@@ -51,13 +53,13 @@
 | Barometer | BMP581 | Pressure and temperature, for altitude |
 | Storage | W25Q128JV | 16 MB SPI NOR flash for flight logs |
 | Wireless | JDY-34 | Bluetooth link to the Perpetual app |
-| Pyro channels | 4 × push-in terminals | Igniter outputs, with a shared hardware enable and continuity sensing |
+| Pyro channels | 4 × AO3400A, 74LVC08, TPW4054 | Low-side igniter switches gated by a shared hardware enable, with continuity sensing |
 | Servo outputs | 74HCT126 buffer | 4 buffered servo signals, with the supply selectable per channel |
 | Power | TPS54302 | 5 V / 3 A buck converter |
-| Protection | Schottky diode and TVS | Reverse-polarity and transient protection |
+| Protection | P-MOSFET and SMBJ15CA TVS | Reverse-polarity and transient protection on the battery input |
 
 The board also provides battery-voltage monitoring, an RGB status LED, a JST connector for
-telemetry or I2C, and USB through the RP2350 Tiny flex cable.
+telemetry or I2C, and USB through the RP2350 Tiny flex cable. No magnetometer is fitted.
 
 Flight logs are stored in the onboard flash and downloaded with the
 [Perpetual app](https://github.com/rotellini9809/perpetual_code) over **USB or Bluetooth**. No
@@ -92,12 +94,31 @@ The firmware's GPIO assignment for every signal is listed in the firmware's
 
 ## Power
 
-The board is designed to run from a **2S or 3S LiPo** battery connected to the XT30 input.
-The TPS54302 buck converter generates the 5 V rail (up to 3 A), and the RP2350 Tiny provides
-the 3.3 V rail. The battery input is protected against reverse polarity and voltage transients,
-and the battery voltage is measured by the MCU.
+The board is designed to run from a **2S or 3S LiPo** battery (about 6–12.6 V) connected to the
+XT30 input. The battery path is:
 
-<!-- TODO: add the exact input voltage range and the maximum pyro channel current. -->
+1. **SMBJ15CA TVS** (D3) across the raw input, for transients. Its 15 V stand-off sets the
+   practical upper limit of the input; do not exceed 3S.
+2. **P-MOSFET** (Q1, 30P20M) for reverse-polarity protection, giving the protected `+BATT` rail.
+3. **TPS54302** buck converter (U4): 5 V rail, up to 3 A.
+
+The RP2350 Tiny provides the 3.3 V rail. Its VSYS input is fed from the 5 V rail through a
+**B5817W Schottky** (D1), so USB power cannot back-feed the 5 V rail: on USB alone the MCU and
+sensors run, but the servo buffer, servos and pyro channels have no supply. The battery voltage is
+measured by the MCU through a 100 kΩ / 24 kΩ divider.
+
+<!-- TODO: maximum pyro channel current. -->
+
+## Pyro channels
+
+Each channel is a WAGO 2060 push-in terminal between `+BATT` and the drain of an **AO3400A**
+low-side MOSFET (Q2–Q5). The MOSFET gates are driven by a **74LVC08** AND gate (U6) that combines
+the channel pin with a shared **enable** pin: a channel only conducts while both are high, so a
+single stuck GPIO cannot fire it. A **TPW4054** 4:1 analog multiplexer (U5) lets the MCU read the
+continuity of one channel at a time on an ADC pin.
+
+The firmware's GPIO assignment, firing sequence and continuity thresholds are in the firmware's
+[hardware reference](https://github.com/rotellini9809/perpetual_code/blob/main/docs/HARDWARE.md#board-circuits).
 
 ## Servo power configuration
 
@@ -118,6 +139,23 @@ To configure a channel:
 > [!CAUTION]
 > With **+BATT** the servo receives the full battery voltage, which must be within the servo's
 > rated supply range.
+
+## Mechanical
+
+<p align="center">
+  <img src="docs/images/mechanical.svg" alt="Board outline 50 by 80 mm with four M2.5 mounting holes, 3.5 mm from each edge" width="420">
+</p>
+
+| Dimension | Value |
+| --- | --- |
+| Board outline | 50 × 80 mm, 3 mm corner radius |
+| Thickness | 1.6 mm, 4 layers |
+| Mounting holes | 4 × Ø2.7 mm for M2.5 screws, one per corner |
+| Hole position | Centres 3.5 mm from each board edge |
+| Hole spacing | 43 × 73 mm, centre to centre |
+
+Pyro terminals sit on one short edge, and the servo headers and XT30 on the other. Leave room
+beside the XT30 and the push-in terminals for the cables.
 
 ## Programming
 
@@ -154,11 +192,12 @@ and for the module, the bootloader and the adapter board, see the
 | Path | Contents |
 | --- | --- |
 | `perpetual_pcb.kicad_pro` | KiCad project: open this file |
-| `perpetual_pcb.kicad_sch` | Top-level schematic, with the `power`, `pyro`, `sensors` and memory sub-sheets |
+| `perpetual_pcb.kicad_sch` | Top-level schematic, with the `power`, `pyro`, `sensors` and memory (`meories.kicad_sch`) sub-sheets |
 | `perpetual_pcb.kicad_pcb` | PCB layout (4 layers) |
 | [`libs/`](libs) | Project symbols, footprints and 3D models |
 | [`fabrication_files/`](fabrication_files) | Gerber and drill files |
-| [`docs/`](docs) | Images and component datasheets |
+| [`bom/`](bom) | Interactive BOM (`ibom.html`) |
+| [`docs/`](docs) | Images, mechanical drawing and component datasheets |
 
 ## Manufacturing
 
@@ -167,8 +206,8 @@ also zipped as [`fabrication_files.zip`](fabrication_files.zip). The board is a 
 Upload the zip to your PCB manufacturer, and check that the files match the revision you intend
 to build.
 
-<!-- TODO: board dimensions and mounting holes. -->
-<!-- TODO: bill of materials. -->
+An interactive bill of materials with component placement is in [`bom/ibom.html`](bom/ibom.html):
+download it and open it in a browser.
 
 ## Development
 

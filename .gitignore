@@ -33,3 +33,6 @@ fp-info-cache
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# KiCad local history (KiCad 10)
+.history/
